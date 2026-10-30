@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-API_URL = "http://127.0.0.1:8000/predict"  # your FastAPI server
+API_URL = "http://host.docker.internal:8000/predict"  # your FastAPI server
 
 st.set_page_config(page_title="Student Pass/Fail Predictor", page_icon="🎓")
 st.title("🎓 Student Pass/Fail Predictor")
